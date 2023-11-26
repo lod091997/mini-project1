@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/icon_ttksnng.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6c3fad44ec.js" crossorigin="anonymous"></script>
+    <title>Mini-Project 1 (Home)</title>
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="nav-brand fs-2" href="#">TATAK<span class="logo">SINING</span></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".site_navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse site_navbar">
+                <ul class="navbar-nav col-lg-12">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/products.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- end navbar -->
+    <!-- start carousel -->
+    <div id="banner" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+            <button data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#banner" data-bs-slide-to="1"></button>
+            <button data-bs-target="#banner" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel1.png" alt="first-carousel" class="d-block w-100 img-fluid" />
+            </div>
+            <div class="carousel-item">
+                <img id="banner-flower" src="img/carousel2.png" alt="second-carousel" class="d-block w-100 img-fluid" />
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.png" alt="third-carousel" class="d-block w-100 img-fluid" />
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide-to="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide-to="prev">
+            <span class="carousel-control-next-icon"></span>
+    </div>
+    <!-- end carousel -->
+
+
+
+    <div class="container text-center">
+        <div class="flex-row">
+            <div class="row">
+                <!-- first content -->
+                <div class="col-lg-4 mb-5 mt-5 firstContent">
+                    <div class="firstContainer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="84" height="75" viewBox="0 0 84 75" fill="none">
+                            <path
+                                d="M40.1457 36.6959C41.1665 37.7799 42.8289 37.7799 43.8642 36.6959L59.7446 19.9681C64.3527 15.1051 64.0902 7.04876 58.928 2.56653C54.4366 -1.34444 47.7432 -0.641347 43.6309 3.69441L41.9977 5.4082L40.379 3.70906C36.2667 -0.641348 29.5734 -1.34444 25.0819 2.56653C19.9343 7.04876 19.6572 15.1051 24.2653 19.9681L40.1457 36.6959ZM82.435 48.0627C80.7143 46.4953 78.0311 46.5979 76.2229 48.0627L62.7486 58.8874C61.1008 60.2203 59.0447 60.9381 56.9156 60.9381H39.6645C38.3812 60.9381 37.3313 59.8834 37.3313 58.5944C37.3313 57.3054 38.3812 56.2508 39.6645 56.2508H51.0826C53.4012 56.2508 55.5594 54.6542 55.9386 52.3545C56.4198 49.4249 54.1741 46.8762 51.3305 46.8762H27.9985C24.0612 46.8762 20.2551 48.2384 17.1928 50.7286L10.4119 56.2508H2.3332C1.04994 56.2508 0 57.3054 0 58.5944V72.6563C0 73.9454 1.04994 75 2.3332 75H54.3637C56.4781 75 58.5343 74.2823 60.1967 72.9493L82.2455 55.2254C84.462 53.4531 84.637 50.0548 82.435 48.0627Z"
+                                fill="#FF2D2D" />
+                        </svg>
+                        <p id="art">
+                            Experience the artful fusion of nature and Filipino TATAKSINING—a celebration of
+                            creativity
+                            blooming
+                            from the heart of the Philippines.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 mt-5 firstContent">
+                    <div class="secondContainer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="75" viewBox="0 0 110 75"
+                            fill="none">
+                            <path
+                                d="M106.786 34.3694L96.7312 24.5759C94.6687 22.567 91.8672 21.4453 88.9453 21.4453H82.5V5.35714C82.5 2.39397 80.0422 0 77 0H5.5C2.45781 0 0 2.39397 0 5.35714V61.6071C0 69.0067 6.15312 75 13.75 75C18.2703 75 22.2406 72.8404 24.75 69.5759C27.2594 72.8571 31.2297 75 35.75 75C43.3469 75 49.5 69.0067 49.5 61.6071C49.5 60.6864 49.3969 59.7991 49.225 58.9286H77.275C77.0859 59.7991 77 60.6864 77 61.6071C77 69.0067 83.1531 75 90.75 75C98.3469 75 104.5 69.0067 104.5 61.6071C104.5 60.6864 104.397 59.7991 104.225 58.9286H107.25C108.762 58.9286 110 57.7232 110 56.25V41.9364C110 39.0904 108.848 36.3783 106.786 34.3694ZM13.75 66.9643C10.725 66.9643 8.25 64.5536 8.25 61.6071C8.25 58.6607 10.725 56.25 13.75 56.25C16.775 56.25 19.25 58.6607 19.25 61.6071C19.25 64.5536 16.775 66.9643 13.75 66.9643ZM35.75 66.9643C32.725 66.9643 30.25 64.5536 30.25 61.6071C30.25 58.6607 32.725 56.25 35.75 56.25C38.775 56.25 41.25 58.6607 41.25 61.6071C41.25 64.5536 38.775 66.9643 35.75 66.9643ZM82.5 29.4643H88.9453C89.6844 29.4643 90.3719 29.7489 90.8875 30.2511L98.3297 37.5H82.5V29.4643ZM90.75 66.9643C87.725 66.9643 85.25 64.5536 85.25 61.6071C85.25 58.6607 87.725 56.25 90.75 56.25C93.775 56.25 96.25 58.6607 96.25 61.6071C96.25 64.5536 93.775 66.9643 90.75 66.9643Z"
+                                fill="#FF2D2D" />
+                        </svg>
+                        <p id="delivery">
+                            Discover the beauty of waterlily handicrafts with TATAKSINING—where art meets speed for
+                            a
+                            swift and
+                            delightful delivery experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 mt-5 firstContent">
+                    <div class="thirdContainer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="110" height="75" viewBox="0 0 110 75"
+                            fill="none">
+                            <path
+                                d="M0 66.9643C0 71.4007 4.1059 75 9.16667 75H100.833C105.894 75 110 71.4007 110 66.9643V37.5H0V66.9643ZM36.6667 55.5804C36.6667 54.4754 37.6979 53.5714 38.9583 53.5714H64.9306C66.191 53.5714 67.2222 54.4754 67.2222 55.5804V62.2768C67.2222 63.3817 66.191 64.2857 64.9306 64.2857H38.9583C37.6979 64.2857 36.6667 63.3817 36.6667 62.2768V55.5804ZM12.2222 55.5804C12.2222 54.4754 13.2535 53.5714 14.5139 53.5714H28.2639C29.5243 53.5714 30.5556 54.4754 30.5556 55.5804V62.2768C30.5556 63.3817 29.5243 64.2857 28.2639 64.2857H14.5139C13.2535 64.2857 12.2222 63.3817 12.2222 62.2768V55.5804ZM110 8.03571V16.0714H0V8.03571C0 3.59933 4.1059 0 9.16667 0H100.833C105.894 0 110 3.59933 110 8.03571Z"
+                                fill="#FF2D2D" />
+                        </svg>
+                        <p id="paymethod">
+                            TATAKSINING offers a variety of payment methods for a seamless and secure shopping
+                            experience.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <!--end first content -->
+                <!-- start second content -->
+                <h2 class="mt-5 mb-5">FEATURED | NEW ARRIVALS</h2>
+                <div class="col-lg-4 mb-5 secondContent">
+                    <div class="featuredContainer">
+                        <div class="featuredContent">
+                            <a href="products.html"><img class="sling" src="img/featured1.png" alt="sling"></a>
+                            <p>Handwoven made by waterlily</p>
+                            <p>SLING BAG</p>
+                            <p>₱220.00 <i class="fa-solid fa-cart-plus"></i> <i class="fa-regular fa-heart"></i></p>
+                            <p class="rating"><span>4.9</span>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </p>
+                            <p>9.5K Ratings | 10K+ Sold</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 secondContent">
+                    <div class="featuredContainer">
+                        <div class="featuredContent">
+                            <a href="products.html"> <img class="sling" src="img/featured2.png" alt="hand-bag"></a>
+                            <p>Handwoven made by waterlily</p>
+                            <p>BAG PACK </p>
+                            <p>₱380.00 <i class="fa-solid fa-cart-plus"></i> <i class="fa-regular fa-heart"></i></p>
+                            <p class="rating"><span>4.7</span>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </p>
+                            <p>5.5K Ratings | 7K+ Sold</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 secondContent">
+                    <div class="featuredContainer">
+                        <div class="featuredContent">
+                            <a href="products.html"><img class="sling" src="img/featured3.png" alt="hand-bag"></a>
+                            <p>Handwoven made by waterlily</p>
+                            <p>HAND BAG </p>
+                            <p>₱350.00 <i class="fa-solid fa-cart-plus"></i> <i class="fa-regular fa-heart"></i></p>
+                            <p class="rating"><span>4.5</span>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </p>
+                            <p>12K Ratings | 15K+ Sold</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 secondContent">
+                    <div class="featuredContainer">
+                        <div class="featuredContent">
+                            <a href="products.html"><img class="sling" src="img/featured4.png" alt="sling-bag"></a>
+                            <p>Handwoven made by waterlily</p>
+                            <p>HAND BAG </p>
+                            <p>₱300.00 <i class="fa-solid fa-cart-plus"></i> <i class="fa-regular fa-heart"></i></p>
+                            <p class="rating"><span>4.3</span>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </p>
+                            <p>2.3K Ratings | 3K+ Sold</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 secondContent">
+                    <div class="featuredContainer">
+                        <div class="featuredContent">
+                            <a href="products.html"> <img class="sling" src="img/featured5.png" alt="basket"></a>
+                            <p class="mt-2">Handwoven made by waterlily</p>
+                            <p>FRUITS/VEG BASKET </p>
+                            <p>₱180.00<i class="fa-solid fa-cart-plus"></i> <i class="fa-regular fa-heart"></i></p>
+                            <p class="rating"><span>4.2</span>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </p>
+                            <p>1K Ratings | 2K+ Sold</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 secondContent">
+                    <div class="featuredContainer">
+                        <div class="featuredContent">
+                            <a href=""> <img class="sling" src="img/featured6.png" alt="coin-purse"></a>
+                            <p>Handwoven made by waterlily</p>
+                            <p>COIN PURSE S | M | L </p>
+                            <p>₱350.00 <i class="fa-solid fa-cart-plus"></i> <i class="fa-regular fa-heart"></i></p>
+                            <p class="rating"><span>4.1</span>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </p>
+                            <p>5K Ratings | 8K+ Sold</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- end second content -->
+                <!-- carousel-testimonial -->
+                <div class="container-fluid col-lg-9 mb-5 mt-0">
+                    <div id="testimonials" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-indicators">
+                            <button data-bs-target="#testimonials" data-bs-slide-to="0"
+                                class="btn btn-dark active"></button>
+                            <button data-bs-target="#testimonials" data-bs-slide-to="1"></button>
+                            <button data-bs-target="#testimonials" data-bs-slide-to="2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/testimonial1.png" alt="first testimonial" class="d-block img-fluid" />
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/testimonial2.png" alt="second testimonial" class=" d-block img-fluid" />
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/testimonial3.png" alt="third testimonial" class=" d-block img-fluid" />
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end testimonials -->
+                <!-- about section -->
+                <hr>
+                <h2 class="display-5 mt-2 mb-5" id="about">About Us</h2>
+
+
+                <div class="col-lg-4">
+                    <img class="about-image mb-5" src="img/about-image1.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="about-logo">TATAK <span class="about-section">/ta·tak/ n.</span> </h3>
+                    <h3 class="fs-4">MEANS: trademark</h3>
+                    <h3 class="about-logo">Sining <span class="about-section">/si·ning/ n.</span></h3>
+                    <h3 class="fs-4">MEANS: art</h3>
+                </div>
+                <div class="col-lg-4">
+                    <img class="about-image mb-5" src="img/waterlilyFestival.jpg" alt="">
+                </div>
+                <div class="aboutUs">
+                    <p>At <span id="aboutSection">TATAKSINING</span>, we cherish the age-old tradition of
+                        handcrafting, weaving stories into every creation. Our journey began amidst the tranquil
+                        waters of Philippine waterways, where the abundance of water lilies sparked our
+                        innovative
+                        spirit. What was once considered a nuisance has become our canvas for creativity and
+                        sustainability.</p>
+                </div>
+                <!-- end about section -->
+                <hr>
+                <div class="container-fluid col-lg-7" id="faq">
+                    <h1 class="mb-5">Frequently Asked Question (FAQ)</h1>
+                    <div class="accordion" class="faq">
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question-1">
+                                    Are your products eco-friendly?
+                                </button>
+                            </h1>
+                            <div id="question-1" class="accordion-collapse collapse" data-bs-parent="#faq">
+                                <div class="accordion-body">Yes, our products are environmentally friendly.
+                                    Waterlily is
+                                    a sustainable and renewable resource, and we strive to create beautiful
+                                    crafts while
+                                    minimizing our environmental impact.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question-2">
+                                    Where are you located?
+                                </button>
+                            </h1>
+                            <div id="question-2" class="accordion-collapse collapse" data-bs-parent="#faq">
+                                <div class="accordion-body">We are located at Los Baños,Laguna.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question-3">
+                                    Do you offer free-delivery?
+                                </button>
+                            </h1>
+                            <div id="question-3" class="accordion-collapse collapse" data-bs-parent="#faq">
+                                <div class="accordion-body">Yes, we offer free delivery voucher to our valued
+                                    customer.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question-4">
+                                    What kind of handicrafts do you offer?
+                                </button>
+                            </h1>
+                            <div id="question-4" class="accordion-collapse collapse" data-bs-parent="#faq">
+                                <div class="accordion-body">We offer a diverse range of handicrafts, including
+                                    baskets,
+                                    home decor items, accessories, and more, all crafted from waterlily with a
+                                    personalized touch.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#question-5">
+                                    What is your shipping policy?
+                                </button>
+                            </h1>
+                            <div id="question-5" class="accordion-collapse collapse" data-bs-parent="#faq">
+                                <div class="accordion-body">We offer worldwide shipping. Shipping costs and
+                                    delivery
+                                    times vary based on your location. You can find detailed information on our
+                                    Shipping
+                                    page or during the checkout process.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end faq section -->
+                <!-- footer -->
+                <hr>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h4>Get To Know Us</h4>
+                        <p>Blog</p>
+                        <p>About US</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>Contact Us</h4>
+                        <p>+02-1111-1111</p>
+                        <p>+639-1111-1111-11</p>
+                        <p>tataksining@email.com</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="text-center">Payment Method</h4>
+                        <img src="img/bdo.png" alt="bdo" id="bdo" class="footer">
+                        <img src="img/mastercard.png" alt="mastercard" id="mastercard" class="footer">
+                        <img src="img/gcash.png" alt="gcash" id="gcash" class="footer mt-2">
+                    </div>
+                    <div class="col-lg-3">
+                        <h4 class="text-center">Delivery Partners</h4>
+                        <img src="img/j&t.png" alt="bdo" id="jnt" class="footer">
+                        <img src="img/flash.png" alt="metrobank" id="flash" class="footer">
+                        <img src="img/lbc.png" alt="mastercard" id="lbc" class="footer">
+                        <img src="img/tnsportify.png" alt="gcash" id="tnsportify" class="footer mt-2">
+                    </div>
+                </div>
+                <hr>
+                <div class="col-lg-4">
+                    <p>&copy;2023 TATAKSINING</p>
+                    <p>All Rights Reserved.</p>
+                    <p>Conditions of Use.</p>
+                    <p>English</p>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Follow Us</h4>
+                    <p class="fs-6"><i class="fa-brands fa-twitter fs-3" id="twitter"></i> Twitter</p>
+                    <p class="fs-6"><i class="fa-brands fa-tiktok fs-3"></i> Tiktok</p>
+                    <p class="fs-6"><i class="fa-brands fa-github fs-3"></i> Github</p>
+                    <p class="fs-6"><i class="fa-brands fa-facebook fs-3" id="fb"></i> Facebook</p>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <h4>Our Location</h4>
+                    <p>Brgy. Bambang, Los Baños, Laguna 4030</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30949.24396554318!2d121.18394105766247!3d14.156340180797235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd66cf7119be93%3A0xbea8621364d43b3c!2sBambang%2C%20Los%20Ba%C3%B1os%2C%20Laguna!5e0!3m2!1sen!2sph!4v1700737107007!5m2!1sen!2sph"
+                        width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:wght@200;300&family=Roboto+Serif:opsz,wght@8..144,500&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9ff !important;
+}
+
+/* navbar */
+.nav-brand {
+    font-family: 'DynaPuff', sans-serif !important;
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+
+.logo {
+    color: yellow;
+}
+
+.site_navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 350px;
+    letter-spacing: 2px;
+}
+
+.site_navbar a {
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #484343;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+
+.navbar-toggler {
+  filter: brightness(0) invert(1);
+}
+
+/* banner */
+
+#banner-container{
+    margin-top: 75px;
+}
+#banner-container img{
+    width: 100%;
+}
+
+
+/* products */
+h2{
+  letter-spacing: 5px;
+}
+.ratings {
+    color: yellow;
+  }
+  
+  .ratings span {
+    color: black;
+  }
+  
+  .ship span {
+    color: #61CEBC;
+  }
+  
+  #banner-image {
+    width: 50%;
+    background-color: black;
+    opacity: 4.9;
+  }
+  
+  #banner-container {
+    position: relative;
+  }
+  
+  #page-content {
+    margin-top: 50px;
+  }
+  
+  /* products */
+
+  /* content */
+
+.nav-item button {
+    color: black !important;
+  }
+  
+  .nav-item button:active,
+  .nav-item button:focus {
+    background-color: #484343 !important;
+    color: white !important;
+  }
+
+  .productcard {
+    font-size: 20px;
+  }
+  
+  .slipper {
+    height: 200px;
+  }
+  
+  .qty button {
+    border: none;
+    color: black;
+    height: 30px;
+    width: 80px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+  }
+  
+  .qty button:hover {
+    background-color: gray;
+    color: white;
+  }
+  .addtocart{
+  background-color: #484343;
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  }
+  
+  .addtocart:hover{
+    background-color: gray;
+    color: black;
+  }
+
+
+
+  /* review */
+
+  #reviewbtn {
+    background-color: #484343;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  #reviewbtn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  #review-dropdown select {
+    margin-left: 40px;
+    width: 70%;
+    height: 50px;
+    border: none;
+  }
+  
+  #reviewrates i {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  #feedback {
+    width: 70%;
+    margin: 20px 0 0 150px;
+  }
+  
+
+
+/* footer */
+.footer {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+
+#jnt,
+#mastercard,
+#gcash,
+#flash,
+#tnsportify,
+#lbc {
+    width: 80px;
+    height: 40px;
+}
+
+#bdo {
+    height: 50px;
+    margin-top: 10px;
+}
+
+#fb,
+#twitter {
+    color: #03A4FF;
+}
+
+#art,
+#delivery,
+#paymethod {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* media query/responsiveness */
+/* s-md-screen */
+@media screen and (min-width: 576px) and (max-width:768px) {
+    #banner-container{
+        display: none;
+    }
+    .top-hand-bag, .top-basket, .top-slippers,.top-coinpurse{
+        width: 300px;
+    }
+}
+/* lg screen */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .top-hand-bag, .top-basket, .top-slippers,.top-coinpurse{
+        width: 300px;
+    }
+}
