@@ -46,3 +46,32 @@ form button:hover{
     background-color: gray;
     color: black;
 }
+
+/* media query/responsiveness */
+/* s-md-screen */
+@media screen and (min-width: 576px) {
+    form{
+        width: 500px;
+        height: 500px;
+    }
+    form input{
+        width: 150px;
+        height: 20px;
+        margin-top: 20px;
+    }
+} 
+
+@media screen and (min-width: 768px){
+    form{
+        width: 500px;
+        height: 500px;
+    }
+    form input{
+        width: 200px;
+        height: 20px;
+        margin-top: 20px;
+
+    }
+}
+
+
