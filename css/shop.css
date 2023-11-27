@@ -41,7 +41,10 @@ body {
     justify-content: end;
     font-size: 30px;
 }
-
+button a{
+  text-decoration: none;
+  color: white;
+}
 nav {
     background-color: #484343;
 }

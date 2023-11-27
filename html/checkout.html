@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/icon_ttksnng.png">
+    <link rel="stylesheet" href="../css/checkout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6c3fad44ec.js" crossorigin="anonymous"></script>
+    <title>Mini-Project 1 (Check)</title>
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="nav-brand fs-2" href="#">TATAK<span class="logo">SINING</span></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".site_navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse site_navbar">
+                <ul class="navbar-nav col-lg-12">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end navbar -->
+
+
+    <div class="container">
+        <h2>Checkout</h2>
+        <div class="card">
+            <div class="flex-row">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="../img/basket-checkout.png" class="img-fluid" id="first-checkout-image" alt="basket">
+                        <img src="../img/bag6.webp" alt="bag" class="img-fluid mt-5" id="second-checkout-image"><br>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="fs-5 mb-5 mt-5">Handwoven made by waterlily <br> Basket / Organizer <br>₱180.00 <br>
+                            <br> Item No.:
+                            B202311 <span class="item-qty">x1</span>
+                        </p><br>
+                        <p class="fs-5 mt-2">Handwoven made by waterlily <br> Sling Bag <br> ₱190.00<br><br> Item No.:
+                            SB202311
+                            <span class="item-qty">x1</span>
+                        </p>
+                    </div>
+                    <form action="">
+                        <label for="voucher" class="mt-5"><i class="fa-solid fa-ticket fs-3"></i> Voucher</label>
+                        <input type="text" name="voucher" placeholder="TTKSNNG" id="voucher" class="mt-2"><br>
+                        <label for="shipping-option" class="mt-4"><i class="fa-solid fa-truck-fast fs-5"></i> Shipping
+                            Option: </label>
+                        <input type="radio" name="shipping-option" id="shipping-option" class="mt-2"> J&T Express
+                        <input type="radio" name="shipping-option" id="shipping-option" class="mt-2"> Flash Express
+                        <input type="radio" name="shipping-option" id="shipping-option" class="mt-2"> LBC
+                        <input type="radio" name="shipping-option" id="shipping-option" class="mt-2"> Transportify
+                        <br>
+                        <label class="mt-4 mb-2" for="payment">Payment Method:</label>
+                        <select name="" id="">
+                            <option value="cash">Cash On Delivery</option>
+                            <option value="gcash">E-Wallet(GCash)</option>
+                            <option value="bank-transfer">Bank Transfer (BPI, BDO, etc.)</option>
+                        </select>
+                        <br>
+                        <label for="feedback"> Message : </label>
+                        <textarea placeholder="Leave a message" rows="2" cols="30" class="mt-3 mx-5"></textarea><br />
+                    </form><br>
+                    <h5 class="mt-5 mx-3">Order Total: <span class="fs-5">(2 Item)</span> <br><br>Total Payment: ₱370.00
+                        <button class="btn checkout fs-5 fw-light btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#checkout">Place Order
+                        </button>
+                    </h5>
+                    <div class="modal fade" id="checkout">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <p class="fs-4">Order No. 20231128</p>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h4>Thank you for your puchase!</h4>
+                                    <p>Order will received 2-3 days based on your location.</p>
+                                    <p>For more inquiries contact us: 0912-1111-111</p>
+                                    <h5>Order Progress</h5>
+                                    <img src="../img/tracking-order.png" class="img-fluid modal-image"
+                                        alt="delivery-truck">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- end modal -->
+        <!-- footer -->
+
+        <hr>
+        <div class="row">
+            <div class="col-lg-3 mt-5">
+                <h4>Get To Know Us</h4>
+                <p>Blog</p>
+                <p>About US</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="col-lg-3">
+                <h4>Contact Us</h4>
+                <p>+02-1111-1111</p>
+                <p>+639-1111-1111-11</p>
+                <p>tataksining@email.com</p>
+            </div>
+            <div class="col-lg-3">
+                <h4 class="text-center">Payment Method</h4>
+                <img src="../img/bdo.png" alt="bdo" id="bdo" class="footer">
+                <img src="../img/mastercard.png" alt="mastercard" id="mastercard" class="footer">
+                <img src="../img/gcash.png" alt="gcash" id="gcash" class="footer mt-2">
+            </div>
+            <div class="col-lg-3">
+                <h4 class="text-center">Delivery Partners</h4>
+                <img src="../img/j&t.png" alt="bdo" id="jnt" class="footer">
+                <img src="../img/flash.png" alt="metrobank" id="flash" class="footer">
+                <img src="../img/lbc.png" alt="mastercard" id="lbc" class="footer">
+                <img src="../img/tnsportify.png" alt="gcash" id="tnsportify" class="footer mt-2">
+            </div>
+            <hr>
+            <div class="col-lg-4">
+                <p>&copy;2023 TATAKSINING</p>
+                <p>All Rights Reserved.</p>
+                <p>Conditions of Use.</p>
+                <p>English</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Follow Us</h4>
+                <p class="fs-6"><i class="fa-brands fa-twitter fs-3" id="twitter"></i> Twitter</p>
+                <p class="fs-6"><i class="fa-brands fa-tiktok fs-3"></i> Tiktok</p>
+                <p class="fs-6"><i class="fa-brands fa-github fs-3"></i> Github</p>
+                <p class="fs-6"><i class="fa-brands fa-facebook fs-3" id="fb"></i> Facebook</p>
+            </div>
+            <div class="col-lg-4 mb-5">
+                <h4>Our Location</h4>
+                <p>Brgy. Bambang, Los Baños, Laguna 4030</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30949.24396554318!2d121.18394105766247!3d14.156340180797235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd66cf7119be93%3A0xbea8621364d43b3c!2sBambang%2C%20Los%20Ba%C3%B1os%2C%20Laguna!5e0!3m2!1sen!2sph!4v1700737107007!5m2!1sen!2sph"
+                    width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

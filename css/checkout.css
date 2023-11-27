@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Poppins:wght@200;300&family=Roboto+Serif:opsz,wght@8..144,500&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9ff !important;
+}
+
+/* navbar */
+.nav-brand {
+    font-family: 'DynaPuff', sans-serif !important;
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+
+.logo {
+    color: yellow;
+}
+
+.site_navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 350px;
+    letter-spacing: 2px;
+}
+
+.site_navbar a {
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #484343;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+.navbar-toggler {
+    filter: brightness(0) invert(1);
+}
+/* checkout info */
+
+.container{
+    margin-top: 100px;
+}
+.card{
+    width: 80%;
+    padding: 20px 20px;
+    box-shadow: 5px 5px gray;
+}
+#first-checkout-image, #second-checkout-image{
+    width: 200px;
+}
+.item-qty{
+margin-left: 90px;
+}
+
+form label,form textarea{
+    font-size: 18px;
+    margin-left: 20px;
+}
+form input{
+    margin-left: 20px;
+}
+
+/* footer */
+.footer {
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+
+#jnt,
+#mastercard,
+#gcash,
+#flash,
+#tnsportify,
+#lbc {
+    width: 80px;
+    height: 40px;
+}
+
+#bdo {
+    height: 50px;
+    margin-top: 10px;
+}
+
+#fb,
+#twitter {
+    color: #03A4FF;
+}
+
+#art,
+#delivery,
+#paymethod {
+    padding-left: 20px;
+    padding-right: 20px;
+}
